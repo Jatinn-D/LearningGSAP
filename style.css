@@ -1,0 +1,28 @@
+body{
+  background-color: black;
+  color: whitesmoke;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 25px;
+}
+
+#part2{
+  display: flex;
+  gap: 50px;
+}
+
+h1{
+  position: absolute;
+  bottom: -70px;
+  right: -14px;
+  margin: 0px 0px;
+  font-size: 350px;
+}
+
