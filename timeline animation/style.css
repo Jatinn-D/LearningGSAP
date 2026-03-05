@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'font1';
+  src: url('SacrificeDemo-8Ox1B.ttf') format('tff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/29908764/pexels-photo-29908764.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+#nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: honeydew;
+  letter-spacing: 1.5px;
+  text-shadow: 1.5px 1.5px 2px #fffb00;
+  text-shadow: 1.5px 1.5px 2px #ff8400;
+  text-shadow: 1.5px 1.5px 2px #ff0000;
+  font-style: oblique;
+}
+
+#nav h2 {
+  font-family: font1;
+  font-weight: 700;
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  font-size: 45px;
+}
+
+#nav i {
+  position: absolute;
+  font-size: 45px;
+  font-weight: 700;
+  right: 20px;
+  padding-top: 70px;
+  cursor: pointer;
+}
+
+#full {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: -100%;
+  background: rgba(141, 70, 70, 0.301);
+  backdrop-filter: blur(12px);
+  color: honeydew;
+  text-shadow: 1.5px 1.5px 2px #fffb00;
+  text-shadow: 1.5px 1.5px 2px #ff8400;
+  text-shadow: 1.5px 1.5px 2px #ff0000;
+  font-style: oblique;
+
+}
+
+#full h4 {
+  font-size: 12vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding-left: 5px;
+}
+
+#full i {
+  font-size: 45px;
+  font-weight: 700;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: jatzz;
+  src: url(./3856NeueMachina.woff2);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  height:100%;
+  width:100%;
+}
+
+body{
+  background-color: black;
+}
+
+#page1, #page2, #page3{
+  height: 100vh;
+  width: 100%;
+  padding: 15vw 0;
+}
+#page1{
+  background-color: #ff073d;
+}
+#page2{
+  background-color: #07ffea;
+}
+#page3{
+  background-color: #ff9807;
+}
+#move{
+  background-color: #d9ff07;
+  padding: 3vw 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.marque{
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+  padding: 0 1.5vw;
+  transform: translate(-100%);
+}
+
+.marque img{
+  height: 6vw;
+}
+
+.marque h1{
+  font-family: jatzz;
+  font-size: 8vw;
+}
